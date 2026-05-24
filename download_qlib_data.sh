@@ -3,7 +3,7 @@
 # ======================================================
 # Qlib 数据自动下载脚本 (增强版)
 # ======================================================
-TARGET_DIR="~/.qlib/qlib_data/cn_data"
+TARGET_DIR="$HOME/.qlib/qlib_data/cn_data"
 TMP_FILE="qlib_bin.tar.gz"
 DOWNLOAD_URL="https://github.com/chenditc/investment_data/releases/latest/download/qlib_bin.tar.gz"
 
