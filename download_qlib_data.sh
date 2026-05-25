@@ -5,7 +5,7 @@
 # ======================================================
 TARGET_DIR="$HOME/.qlib/qlib_data/cn_data"
 TMP_FILE="qlib_bin.tar.gz"
-DOWNLOAD_URL="https://github.com/chenditc/investment_data/releases/latest/download/qlib_bin.tar.gz"
+DOWNLOAD_URL="https://github.com/chenditc/investment_data/releases/download/$(date +%Y-%m-%d)/qlib_bin.tar.gz"
 
 # 错误处理：一旦出错立即退出
 set -e
